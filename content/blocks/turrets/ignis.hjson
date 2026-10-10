@@ -1,0 +1,52 @@
+type: PowerTurret
+name: Ignis
+description: Ignites a volatile mixture of phosphorus and sulfur.
+
+health: 500
+size: 3
+reload: 80
+range: 140
+category: turret
+
+requirements: [
+  thulium/124
+  molybdenum/100
+  hafnium/20
+  beryllium/90
+]
+
+consumes: {
+  power: 0.2
+  liquids: [
+    sulfur-gas/0.03333333
+    phosphorus-gas/0.03333333
+    ozone/0.1
+  ]
+}
+
+shootType: {
+  type: BulletType
+  damage: 65
+  speed: 0        
+  lifetime: 1       
+  drawSize: 0
+  width: 0
+  height: 0
+  
+  shootSound: explosion
+  shootEffect: sparkShoot
+  smokeEffect: none
+  
+  splashDamage: 65
+  splashDamageRadius: 140  
+  
+  hitEffect: {
+    type: WaveEffect
+    sides: 0               
+    lifetime: 25            
+    sizeFrom: 0
+    sizeTo: 140         
+    colorFrom: ffffff
+    colorTo: aaaaaa
+  }
+}

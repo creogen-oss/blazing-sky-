@@ -1,0 +1,49 @@
+type: PowerTurret
+name: Banger
+description: Igniting sulfur triggers a loud bang that frightens away enemy pests. Has a long cooldown.
+
+health: 150
+size: 2
+reload: 600
+range: 240
+category: turret
+
+requirements: [
+  thulium/35
+  molybdenum/25
+]
+
+consumes: {
+  liquids: [
+    sulfur-gas/0.01666667
+    ozone/0.01666667
+  ]
+}
+
+shootType: {
+  type: BulletType
+  damage: 31
+  speed: 0        
+  lifetime: 1       
+  drawSize: 0
+  width: 0
+  height: 0
+  
+  shootSound: explosion
+  shootEffect: sparkShoot
+  smokeEffect: none
+  
+  splashDamage: 31
+  splashDamageRadius: 240  
+  knockback: 12.0
+  
+  hitEffect: {
+    type: WaveEffect
+    sides: 0               
+    lifetime: 45           
+    sizeFrom: 0
+    sizeTo: 240         
+    colorFrom: ffffff
+    colorTo: aaaaaa
+  }
+}

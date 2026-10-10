@@ -1,0 +1,52 @@
+type: PowerTurret
+name: Pix
+description: Triggers a violent reaction of ozone, hydrogen, and phosphorus. The resulting odor scares away insects far more than the actual bang.
+details: Who named the turret 'Tar'?
+
+health: 160
+size: 2
+reload: 115
+range: 160
+category: turret
+
+requirements: [
+  thulium/10
+  molybdenum/73
+  beryllium/45
+]
+
+consumes: {
+  liquids: [
+    phosphorus-gas/0.03333333
+    hydrogen/0.06666667
+    ozone/0.05
+  ]
+}
+
+shootType: {
+  type: BulletType
+  damage: 23
+  speed: 0        
+  lifetime: 1       
+  drawSize: 0
+  width: 0
+  height: 0
+  
+  shootSound: explosion
+  shootEffect: sparkShoot
+  smokeEffect: none
+  
+  splashDamage: 23
+  splashDamageRadius: 160  
+  knockback: 12.0
+  
+  hitEffect: {
+    type: WaveEffect
+    sides: 0               
+    lifetime: 30          
+    sizeFrom: 0
+    sizeTo: 160         
+    colorFrom: ffffff
+    colorTo: aaaaaa
+  }
+}

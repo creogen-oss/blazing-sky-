@@ -1,0 +1,49 @@
+type: PowerTurret
+name: Grent
+description: Shoots... oh wait, no. It just makes a loud clapping sound due to the chemical reaction between hydrogen and ozone.
+details: Better make it work perfectly, or I'll get fired just like the previous guy.
+
+health: 120
+size: 1
+reload: 80
+range: 140
+category: turret
+
+requirements: [
+  thulium/10
+  molybdenum/5
+]
+
+consumes: {
+  liquids: [
+    hydrogen/0.01666667
+    ozone/0.01666667
+  ]
+}
+
+shootType: {
+  type: BulletType
+  damage: 9
+  speed: 0        
+  lifetime: 1       
+  drawSize: 0
+  width: 0
+  height: 0
+  
+  shootSound: explosion
+  shootEffect: sparkShoot
+  smokeEffect: none
+  
+  splashDamage: 9
+  splashDamageRadius: 140  
+  
+  hitEffect: {
+    type: WaveEffect
+    sides: 0               
+    lifetime: 25            
+    sizeFrom: 0
+    sizeTo: 140         
+    colorFrom: ffffff
+    colorTo: aaaaaa
+  }
+}
