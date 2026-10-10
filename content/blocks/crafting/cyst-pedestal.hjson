@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Cyst Pedestal"
+description: "A monument built to display your ultimate discovery. Proves your dominance over the planet."
+
+size: 2
+health: 1500 // 
+
+craftTime: 999999
+hasItems: true
+itemCapacity: 1
+
+consumes: {
+  items: [
+    dormant-cyst/1
+  ]
+}
+
+lightRadius: 60
+lightColor: 7a6a85
+
+requirements: [
+  thulium/150
+  molybdenum/100
+  hafnium/50
+  beryllium/120    
+  tungsten-181/30   
+]
+
+category: effect
+research: core-shard
