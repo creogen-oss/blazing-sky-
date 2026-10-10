@@ -1,0 +1,25 @@
+type: CoreBlock
+name: "Core: Aspikiens"
+description: "A core with all the necessary components and improved armor."
+
+unitType: "researcher"
+
+health: 12801
+armor: 7.0
+itemCapacity: 6901
+
+size: 4
+unitCapModifier: 4 
+category: effect
+
+requirements: [
+  molybdenum/2000
+  beryllium/600
+  tungsten/900 
+]
+
+researchCost: [
+  molybdenum/5000
+  beryllium/1200
+  thulium/8600
+]

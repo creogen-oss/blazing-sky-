@@ -1,0 +1,15 @@
+type: CoreBlock
+name: "Station: explore"
+description: "A station for exploring other planets. Features a communications tower, a module, storage, and a small RTG."
+
+unitType: "station-construction-module"
+
+health: 3451
+itemCapacity: 4001
+
+
+size: 3
+unitCapModifier: 2
+category: effect
+
+requirements: []
