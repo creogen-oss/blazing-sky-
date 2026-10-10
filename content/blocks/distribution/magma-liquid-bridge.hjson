@@ -1,0 +1,13 @@
+type: LiquidBridge
+name: Magma Liquid Bridge
+description: Transfers liquids through blocks.
+health: 90
+size: 1
+liquidCapacity: 20
+range: 4
+requirements: [
+  thulium/6
+  molybdenum/4
+]
+category: liquid
+research: magma-liquid-bridge

@@ -1,0 +1,11 @@
+type: Junction
+name: "Electromagnetic Junction"
+description: "Permits two intersecting conveyor lines to cross without mixing items."
+health: 80
+speed: 15
+capacity: 8
+research: electromagnetic-router
+requirements: [
+  thulium/2
+  molybdenum/1
+]

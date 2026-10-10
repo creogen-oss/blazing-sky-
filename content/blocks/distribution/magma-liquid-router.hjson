@@ -1,0 +1,12 @@
+type: LiquidRouter
+name: Magma Liquid Router
+description: Distributes liquids in three directions.
+health: 80
+size: 1
+liquidCapacity: 30
+requirements: [
+  thulium/6
+  molybdenum/4
+]
+category: liquid
+research: magma-conduit

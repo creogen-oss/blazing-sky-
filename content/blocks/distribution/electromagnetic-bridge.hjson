@@ -1,0 +1,16 @@
+type: BufferedItemBridge
+name: "Electromagnetic Bridge"
+description: "Launches items through the air over structures and terrain using magnetic rails."
+health: 90
+range: 5
+transportTime: 3
+itemCapacity: 12
+research: electromagnetic-router
+requirements: [
+  thulium/6
+  molybdenum/4
+]
+
+drawer: {
+  type: DrawBridge
+}

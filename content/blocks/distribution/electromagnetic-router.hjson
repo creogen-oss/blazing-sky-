@@ -1,0 +1,10 @@
+type: Router
+name: "Electromagnetic Router"
+description: "Distributes incoming items equally into 3 directions using magnetic guidance."
+health: 90
+itemCapacity: 5
+research: electromagnetic-conveyor
+requirements: [
+  thulium/3
+  molybdenum/2
+]

@@ -1,0 +1,10 @@
+type: Conveyor
+name: "Electromagnetic Conveyor"
+description: "Uses electromagnetic fields to accelerate and transport items forward at high speeds."
+health: 70
+speed: 0.1
+displayedSpeed: 9.0
+research: mechanical-conveyor 
+requirements: [
+  thulium/1
+]

@@ -1,0 +1,11 @@
+type: LiquidJunction
+name: Magma Liquid Junction
+description: Allows pipes to cross without fluid displacement.
+health: 70
+size: 1
+requirements: [
+  thulium/6
+  molybdenum/6
+]
+category: liquid
+research: magma-liquid-router

@@ -1,0 +1,13 @@
+type: Conduit
+name: Magma Conduit
+description: moves the fluid forward.
+health: 60
+size: 1
+liquidCapacity: 15
+liquidPressure: 1.2
+requirements: [
+  thulium/3
+  molybdenum/2
+]
+category: liquid
+research: conduit

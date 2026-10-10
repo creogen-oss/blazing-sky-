@@ -1,0 +1,22 @@
+type: Drill
+name: "Beam Drill"
+description: "cuts exceptionally hard ore."
+
+size: 2
+health: 580
+tier: 5
+drillTime: 36.0
+
+hasPower: true
+consumes: {
+  power: 0.1
+}
+
+requirements: [
+  thulium/35
+  molybdenum/25
+  hafnium/15
+]
+
+category: production
+research: "kinetic-drill" 

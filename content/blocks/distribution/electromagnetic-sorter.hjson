@@ -1,0 +1,9 @@
+type: Sorter
+name: "Electromagnetic Sorter"
+description: "Instantly sorts items. If an item matches the selection, it passes straight through."
+health: 70
+research: electromagnetic-junction
+requirements: [
+  thulium/3
+  molybdenum/2
+]

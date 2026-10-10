@@ -1,0 +1,17 @@
+type: Pump
+name: Gas Suction Drill
+description: Placed on vapor vents to vacuum out sulfur and phosphorus gases under high pressure.
+size: 2
+health: 140
+pumpAmount: 0.25
+liquidCapacity: 40
+hasLiquids: true
+hasPower: true
+consumes: {
+  power: 0.8
+}
+requirements: [
+  thulium/25
+  molybdenum/15
+]
+category: production

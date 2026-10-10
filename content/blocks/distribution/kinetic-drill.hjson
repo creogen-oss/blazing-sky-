@@ -1,0 +1,17 @@
+type: Drill
+name: "Kinetic Drill"
+description: "Scrapes ore out of the vein."
+
+size: 1
+health: 230
+tier: 4
+drillTime: 120
+
+buildCostMultiplier: 1.0
+
+requirements: [
+  thulium/10 // 
+]
+
+category: production
+research: core-shard
