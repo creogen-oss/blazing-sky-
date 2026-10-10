@@ -1,0 +1,23 @@
+type: StatusEffect
+
+damage: 36666667.0 
+speedMultiplier: 0.0
+dragMultiplier: 0.0
+color: "2c2d38" 
+
+effect: {
+  type: ParticleEffect
+  particles: 3         
+  length: 45           
+  lifetime: 120         
+
+  region: circle        
+  
+  
+  colorFrom: "e2e8f088" 
+  colorTo: "1a1c2300"  
+  sizeFrom: 12         
+  sizeTo: 24          
+  
+  interp: fade      
+}
