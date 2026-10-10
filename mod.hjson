@@ -1,0 +1,8 @@
+name: caelum-ardens
+displayName: Blazing skies
+author: creogen_52, санечка
+description: "Quamvis flammis haec tellus ceu ligna cremetur,\nvita tamen latitat, Fronteloni occulta.\nQuae vocatur bestiolis piscibusque,\netsi nil animi rationisque tenet."
+version: 0.1.1 alpha
+minGameVersion: 145
+hidden: false
+subtitle: че-то я переборщил с поэзией на латыни
