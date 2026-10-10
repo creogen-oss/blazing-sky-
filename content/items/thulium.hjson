@@ -1,0 +1,9 @@
+name:"thulium" 
+description:"medium-melting metal of the lanthanide group"
+cost:2.5
+color:7fa3ad
+hardness:1
+radioactivity:0.0
+explosiveness:0.0
+flammability:0.0
+charge:0.1

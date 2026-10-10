@@ -1,0 +1,8 @@
+name: Dormant Cyst
+description: An ancient organic structure. It seems to react to specific energy fields.
+hidden: false
+flammability: 0.1
+radioactivity: 0.0
+explosiveness: 0.0
+hardness: 0
+color: a08090

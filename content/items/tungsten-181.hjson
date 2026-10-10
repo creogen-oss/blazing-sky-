@@ -1,0 +1,10 @@
+name: "Tungsten-181"
+description: "A radioactive isotope of tungsten that can be used as fuel in RTGs."
+details: "If on your planet it is artificial, then on another planet it is natural."
+cost: 4.5
+color: "7a8b99"
+hardness: 5
+radioactivity: 0.55
+explosiveness: 0.0
+flammability: 0.0
+charge: 0.0

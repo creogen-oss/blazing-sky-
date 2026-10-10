@@ -1,0 +1,9 @@
+name:"hafnium" 
+description:"refractory metal with high electrical conductivity"
+cost:2.5
+color:cococo
+hardness:3
+radioactivity:0.0
+explosiveness:0.0
+flammability:0.0
+charge:10.5
