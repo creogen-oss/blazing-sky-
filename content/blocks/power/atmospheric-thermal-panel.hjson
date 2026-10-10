@@ -1,0 +1,17 @@
+type: ThermalGenerator
+name: "Atmospheric Heat Panel"
+description: "Absorbs the intense heat of the burning planet's atmosphere to generate energy."
+size: 1
+hasPower: true
+outputsPower: true
+powerProduction: 0.5
+generateEffect: "magmasmoke"
+effectChance: 0.05
+
+category: power
+research: core-nucleus
+
+requirements: [
+  thulium/15
+  molybdenum/8
+]

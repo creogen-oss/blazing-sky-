@@ -1,0 +1,16 @@
+type: PowerNode
+name: "Sky Energy Bridge"
+description: "Transmits power wirelessly over deadly chasms and open skies."
+size: 1
+laserRange: 25
+maxNodes: 4
+laserColor1: "ffaa22"
+laserColor2: "ffffff"
+
+category: power
+research: core-nucleus
+
+requirements: [
+  thulium/20
+  molybdenum/15
+]
