@@ -1,0 +1,28 @@
+type: flying
+name: "Researcher"
+description: "A construction drone that extracts fuel from the atmosphere through its shell."
+
+health: 1003
+armor: 0
+targetable: false
+hittable: false
+isEnemy: false
+
+speed: 4.25
+flying: true
+
+buildSpeed: 4.57
+mineSpeed: 3.0
+mineTier: 2 
+itemCapacity: 40
+
+abilities: [
+  {
+    type: RepairFieldAbility
+    amount: 0.05
+    reload: 60.0
+    range: 80.0
+  }
+]
+
+weapons: []

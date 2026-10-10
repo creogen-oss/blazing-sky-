@@ -1,0 +1,21 @@
+type: flying
+name: "Station Construction Module"
+description: "A stationary defense and support drone. Focuses entirely on structural construction and basic ore extraction."
+
+health: 20
+armor: 0
+
+speed: 0.0
+
+
+flying: true
+targetable: false
+hittable: false
+isEnemy: false
+
+buildSpeed: 1.0
+mineSpeed: 0.5
+mineTier: 1
+itemCapacity: 10
+
+weapons: []
