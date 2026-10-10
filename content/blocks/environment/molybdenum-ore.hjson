@@ -1,0 +1,5 @@
+type: OreBlock 
+name: molybdenum-ore
+itemDrop: molybdenum 
+variants: 3
+wallOre: false 

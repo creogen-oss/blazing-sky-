@@ -1,0 +1,10 @@
+type: Floor
+name: Hydrogen Vent
+
+inEditor: true
+variants: 3
+
+liquidDrop: hydrogen
+liquidMultiplier: 0.2   
+
+damageTaken: 1.2

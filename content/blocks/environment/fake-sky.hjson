@@ -1,0 +1,5 @@
+type: Floor
+name: "Fake Sky"
+speedMultiplier: 1.0
+inEditor: true
+cacheLayer: water

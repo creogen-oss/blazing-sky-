@@ -1,0 +1,4 @@
+type: OreBlock
+name: Dormant Cyst Ore
+itemDrop: dormant-cyst
+variants: 1

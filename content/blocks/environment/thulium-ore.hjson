@@ -1,0 +1,5 @@
+type: OreBlock 
+name: thulium-ore
+itemDrop: thulium
+variants: 3
+wallOre: false 

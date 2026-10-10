@@ -1,0 +1,5 @@
+type: OreBlock 
+name: hafnium-ore
+itemDrop: hafnium
+variants: 3
+wallOre: false 

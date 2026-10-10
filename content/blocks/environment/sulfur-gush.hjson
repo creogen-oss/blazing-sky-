@@ -1,0 +1,11 @@
+type: Floor
+name: Sulfur Gush
+
+inEditor: true
+variants: 3
+
+
+liquidDrop: sulfur-gas
+liquidMultiplier: 0.1
+
+damageTaken: 0.4

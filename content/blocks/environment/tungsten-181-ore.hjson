@@ -1,0 +1,5 @@
+type: OreBlock 
+name: tungsten-181-ore
+itemDrop: tungsten-181
+variants: 3
+wallOre: false 

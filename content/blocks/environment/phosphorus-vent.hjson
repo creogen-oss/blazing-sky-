@@ -1,0 +1,10 @@
+type: Floor
+name: Phosphorus Vent
+
+inEditor: true
+variants: 3
+
+liquidDrop: phosphorus-gas
+liquidMultiplier: 0.15
+
+damageTaken: 0.5

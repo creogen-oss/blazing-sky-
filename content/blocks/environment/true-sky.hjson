@@ -1,0 +1,19 @@
+type: Floor
+name: "True Sky"
+
+cacheLayer: water
+
+status: fall
+statusDuration: 60
+drownTime: 0.1
+
+isLiquid: true
+shallow: false 
+solid: false
+
+status: burning
+statusDuration: 120
+
+emitLight: false
+lightRadius: 40
+lightColor: ff5500

@@ -1,0 +1,11 @@
+type: Floor
+name: Ozone Vent
+
+
+inEditor: true
+variants: 3
+
+liquidDrop: ozone
+liquidMultiplier: 0.12
+damageTaken: 0.3
+
