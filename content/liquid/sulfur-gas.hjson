@@ -1,9 +1,0 @@
-type: liquid
-name: Sulfur Gas
-description: Corrosive and suffocating volcanic gas. Used in advanced chemical weapon production.
-gas: true
-color: "#d1bd64"
-flammability: 0.8
-explosiveness: 0.3
-viscosity: 0.3
-coolant: false
