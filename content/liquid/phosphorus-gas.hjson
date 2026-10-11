@@ -2,7 +2,7 @@ type: liquid
 name: Phosphorus Gas
 description: A superheated, highly toxic and self-igniting gas. Extremely volatile.
 gas: true
-color: 1А1А1А
+color: "#1a1a1a"
 flammability: 1.6
 explosiveness: 0.4
 viscosity: 0.15
